@@ -1,0 +1,26 @@
+{
+  "name": "book-record-management",
+  "version": "1.0.0",
+  "description": "Book record management API backend using node.js and express.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soniya1209/book-record-management.git"
+  },
+  "author": "Soniya Patidar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Soniya1209/book-record-management/issues"
+  },
+  "homepage": "https://github.com/Soniya1209/book-record-management#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
