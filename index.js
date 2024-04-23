@@ -1,6 +1,11 @@
 const express = require("express");
+
+const usersRouter = require("./routes/users");     //importing routes
+const booksRouter = require("./routes/books");
+
 const app = express();
 const port = 8081;
+
 app.use(express.json());
 
 app.get("/", (req, res) => {
@@ -8,6 +13,9 @@ app.get("/", (req, res) => {
         message: "Server is up and running",
     });
 });
+
+app.use("/users", usersRouter);
+app.use("/books",booksRouter);
 
 app.get("*", (req, res) => {
     res.status(404).json({
