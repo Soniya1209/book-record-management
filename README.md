@@ -38,6 +38,8 @@ GET: All issued books with fine
  Standard (6 months)
  Premium (12 months)
 
+ date swill be in format MM/DD/YYYY
+
  If the subscription date is 01/10/2023 and subscription type is Standard , it'll be valid till 
  01/04/24.
 
