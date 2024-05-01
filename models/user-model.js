@@ -36,7 +36,7 @@ const userSchema = new Schema(
     },
     {
         timestamp : true,
-    }
+    },
 );
-//collection will have a name "book"
+//collection will have a name "User"
 module.exports = mongoose.model("User", userSchema);
